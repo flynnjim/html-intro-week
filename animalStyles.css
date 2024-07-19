@@ -1,0 +1,49 @@
+h1 {
+    font-size: xx-large;
+    font-family: "Trade Winds", cursive;
+  }
+
+img {
+    width: 350px;
+    width: 430px;
+}
+
+#pirateTitle {
+    font-family: "Pirate One", cursive;
+    font-weight: bolder;
+    /* font-size: xx-large; */
+    font-size: 50px;
+}
+
+p {
+    font-family: "Pirata One", cursive;
+}
+
+ol {
+    list-style: none;
+}
+
+.title { grid-area: header; }
+.left { grid-area: left; }
+.main { grid-area: main; }
+.right { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left main main main main right'
+    'left footer footer footer footer footer';
+  gap: 20px;
+  background-color: #2196F3;
+  padding: 10px;
+}       
+
+.grid-container > section {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+
