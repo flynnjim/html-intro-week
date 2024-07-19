@@ -8,6 +8,11 @@ img {
     width: 430px;
 }
 
+#rotate {
+    transform: rotate(90deg);
+    width: 300px;
+}
+
 #pirateTitle {
     font-family: "Pirate One", cursive;
     font-weight: bolder;
@@ -19,7 +24,7 @@ p {
     font-family: "Pirata One", cursive;
 }
 
-ol {
+li {
     list-style: none;
 }
 
