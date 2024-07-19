@@ -1,0 +1,52 @@
+p {
+    font-family:  "Rubik Mono One", cursive;
+}
+
+ol {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    list-style-type: none;
+}
+
+ul {
+    font-family: 'Playwrite BE VLG', cursive;
+    color:deeppink;
+    list-style: none;
+}
+
+* {
+    background-color: lightcyan;
+    text-align: center;
+}
+h1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: blue;
+    font-family:'Kalnia Glaze', cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
+a {
+    color: gold;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+
+#film_wolverine {
+    border-radius: 50%;
+    border: 10px purple, solid
+}
+
+#comicwolverine {
+    border: 15px yellow, solid;
+    margin: 20px 0px 0px 0px
+}
+
+img {
+    width: 350px;
+    margin: 20px;
+    padding: 0px;
+}
